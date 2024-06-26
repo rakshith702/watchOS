@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32C328ED2C286571003D10CE /* QRCodeWatchOS Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 32C328EC2C286571003D10CE /* QRCodeWatchOS Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		32C328F22C286571003D10CE /* QRCodeWatchOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C328F12C286571003D10CE /* QRCodeWatchOSApp.swift */; };
+		32C328F42C286571003D10CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C328F32C286571003D10CE /* ContentView.swift */; };
+		32C328F62C286572003D10CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32C328F52C286572003D10CE /* Assets.xcassets */; };
+		32C328F92C286572003D10CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32C328F82C286572003D10CE /* Preview Assets.xcassets */; };
+		32C329032C286573003D10CE /* QRCodeWatchOS_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C329022C286573003D10CE /* QRCodeWatchOS_Watch_AppTests.swift */; };
+		32C3290D2C286573003D10CE /* QRCodeWatchOS_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C3290C2C286573003D10CE /* QRCodeWatchOS_Watch_AppUITests.swift */; };
+		32C3290F2C286573003D10CE /* QRCodeWatchOS_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C3290E2C286573003D10CE /* QRCodeWatchOS_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32C328EE2C286571003D10CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32C328E02C286570003D10CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32C328EB2C286571003D10CE;
+			remoteInfo = "QRCodeWatchOS Watch App";
+		};
+		32C328FF2C286573003D10CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32C328E02C286570003D10CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32C328EB2C286571003D10CE;
+			remoteInfo = "QRCodeWatchOS Watch App";
+		};
+		32C329092C286573003D10CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32C328E02C286570003D10CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32C328EB2C286571003D10CE;
+			remoteInfo = "QRCodeWatchOS Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		32C329152C286573003D10CE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				32C328ED2C286571003D10CE /* QRCodeWatchOS Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		32C328E62C286571003D10CE /* QRCodeWatchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodeWatchOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32C328EC2C286571003D10CE /* QRCodeWatchOS Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QRCodeWatchOS Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32C328F12C286571003D10CE /* QRCodeWatchOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeWatchOSApp.swift; sourceTree = "<group>"; };
+		32C328F32C286571003D10CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		32C328F52C286572003D10CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32C328F82C286572003D10CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		32C328FE2C286573003D10CE /* QRCodeWatchOS Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QRCodeWatchOS Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32C329022C286573003D10CE /* QRCodeWatchOS_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeWatchOS_Watch_AppTests.swift; sourceTree = "<group>"; };
+		32C329082C286573003D10CE /* QRCodeWatchOS Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QRCodeWatchOS Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32C3290C2C286573003D10CE /* QRCodeWatchOS_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeWatchOS_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		32C3290E2C286573003D10CE /* QRCodeWatchOS_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeWatchOS_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32C328E92C286571003D10CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32C328FB2C286573003D10CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32C329052C286573003D10CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32C328DF2C286570003D10CE = {
+			isa = PBXGroup;
+			children = (
+				32C328F02C286571003D10CE /* QRCodeWatchOS Watch App */,
+				32C329012C286573003D10CE /* QRCodeWatchOS Watch AppTests */,
+				32C3290B2C286573003D10CE /* QRCodeWatchOS Watch AppUITests */,
+				32C328E72C286571003D10CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32C328E72C286571003D10CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32C328E62C286571003D10CE /* QRCodeWatchOS.app */,
+				32C328EC2C286571003D10CE /* QRCodeWatchOS Watch App.app */,
+				32C328FE2C286573003D10CE /* QRCodeWatchOS Watch AppTests.xctest */,
+				32C329082C286573003D10CE /* QRCodeWatchOS Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32C328F02C286571003D10CE /* QRCodeWatchOS Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				32C328F12C286571003D10CE /* QRCodeWatchOSApp.swift */,
+				32C328F32C286571003D10CE /* ContentView.swift */,
+				32C328F52C286572003D10CE /* Assets.xcassets */,
+				32C328F72C286572003D10CE /* Preview Content */,
+			);
+			path = "QRCodeWatchOS Watch App";
+			sourceTree = "<group>";
+		};
+		32C328F72C286572003D10CE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				32C328F82C286572003D10CE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		32C329012C286573003D10CE /* QRCodeWatchOS Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				32C329022C286573003D10CE /* QRCodeWatchOS_Watch_AppTests.swift */,
+			);
+			path = "QRCodeWatchOS Watch AppTests";
+			sourceTree = "<group>";
+		};
+		32C3290B2C286573003D10CE /* QRCodeWatchOS Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32C3290C2C286573003D10CE /* QRCodeWatchOS_Watch_AppUITests.swift */,
+				32C3290E2C286573003D10CE /* QRCodeWatchOS_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "QRCodeWatchOS Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32C328E52C286571003D10CE /* QRCodeWatchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32C329162C286573003D10CE /* Build configuration list for PBXNativeTarget "QRCodeWatchOS" */;
+			buildPhases = (
+				32C328E42C286571003D10CE /* Resources */,
+				32C329152C286573003D10CE /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32C328EF2C286571003D10CE /* PBXTargetDependency */,
+			);
+			name = QRCodeWatchOS;
+			productName = QRCodeWatchOS;
+			productReference = 32C328E62C286571003D10CE /* QRCodeWatchOS.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		32C328EB2C286571003D10CE /* QRCodeWatchOS Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32C329122C286573003D10CE /* Build configuration list for PBXNativeTarget "QRCodeWatchOS Watch App" */;
+			buildPhases = (
+				32C328E82C286571003D10CE /* Sources */,
+				32C328E92C286571003D10CE /* Frameworks */,
+				32C328EA2C286571003D10CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QRCodeWatchOS Watch App";
+			productName = "QRCodeWatchOS Watch App";
+			productReference = 32C328EC2C286571003D10CE /* QRCodeWatchOS Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32C328FD2C286573003D10CE /* QRCodeWatchOS Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32C329192C286573003D10CE /* Build configuration list for PBXNativeTarget "QRCodeWatchOS Watch AppTests" */;
+			buildPhases = (
+				32C328FA2C286573003D10CE /* Sources */,
+				32C328FB2C286573003D10CE /* Frameworks */,
+				32C328FC2C286573003D10CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32C329002C286573003D10CE /* PBXTargetDependency */,
+			);
+			name = "QRCodeWatchOS Watch AppTests";
+			productName = "QRCodeWatchOS Watch AppTests";
+			productReference = 32C328FE2C286573003D10CE /* QRCodeWatchOS Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32C329072C286573003D10CE /* QRCodeWatchOS Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32C3291C2C286573003D10CE /* Build configuration list for PBXNativeTarget "QRCodeWatchOS Watch AppUITests" */;
+			buildPhases = (
+				32C329042C286573003D10CE /* Sources */,
+				32C329052C286573003D10CE /* Frameworks */,
+				32C329062C286573003D10CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32C3290A2C286573003D10CE /* PBXTargetDependency */,
+			);
+			name = "QRCodeWatchOS Watch AppUITests";
+			productName = "QRCodeWatchOS Watch AppUITests";
+			productReference = 32C329082C286573003D10CE /* QRCodeWatchOS Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32C328E02C286570003D10CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					32C328E52C286571003D10CE = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					32C328EB2C286571003D10CE = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					32C328FD2C286573003D10CE = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 32C328EB2C286571003D10CE;
+					};
+					32C329072C286573003D10CE = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 32C328EB2C286571003D10CE;
+					};
+				};
+			};
+			buildConfigurationList = 32C328E32C286570003D10CE /* Build configuration list for PBXProject "QRCodeWatchOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32C328DF2C286570003D10CE;
+			productRefGroup = 32C328E72C286571003D10CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32C328E52C286571003D10CE /* QRCodeWatchOS */,
+				32C328EB2C286571003D10CE /* QRCodeWatchOS Watch App */,
+				32C328FD2C286573003D10CE /* QRCodeWatchOS Watch AppTests */,
+				32C329072C286573003D10CE /* QRCodeWatchOS Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32C328E42C286571003D10CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32C328EA2C286571003D10CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C328F92C286572003D10CE /* Preview Assets.xcassets in Resources */,
+				32C328F62C286572003D10CE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32C328FC2C286573003D10CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32C329062C286573003D10CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32C328E82C286571003D10CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C328F42C286571003D10CE /* ContentView.swift in Sources */,
+				32C328F22C286571003D10CE /* QRCodeWatchOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32C328FA2C286573003D10CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C329032C286573003D10CE /* QRCodeWatchOS_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32C329042C286573003D10CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C3290F2C286573003D10CE /* QRCodeWatchOS_Watch_AppUITestsLaunchTests.swift in Sources */,
+				32C3290D2C286573003D10CE /* QRCodeWatchOS_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32C328EF2C286571003D10CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32C328EB2C286571003D10CE /* QRCodeWatchOS Watch App */;
+			targetProxy = 32C328EE2C286571003D10CE /* PBXContainerItemProxy */;
+		};
+		32C329002C286573003D10CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32C328EB2C286571003D10CE /* QRCodeWatchOS Watch App */;
+			targetProxy = 32C328FF2C286573003D10CE /* PBXContainerItemProxy */;
+		};
+		32C3290A2C286573003D10CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32C328EB2C286571003D10CE /* QRCodeWatchOS Watch App */;
+			targetProxy = 32C329092C286573003D10CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		32C329102C286573003D10CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32C329112C286573003D10CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		32C329132C286573003D10CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QRCodeWatchOS Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 84839LRK5T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = QRCodeWatchOS;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rakshith.QRCodeWatchOS.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		32C329142C286573003D10CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QRCodeWatchOS Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 84839LRK5T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = QRCodeWatchOS;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rakshith.QRCodeWatchOS.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		32C329172C286573003D10CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84839LRK5T;
+				INFOPLIST_KEY_CFBundleDisplayName = QRCodeWatchOS;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rakshith.QRCodeWatchOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		32C329182C286573003D10CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84839LRK5T;
+				INFOPLIST_KEY_CFBundleDisplayName = QRCodeWatchOS;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rakshith.QRCodeWatchOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32C3291A2C286573003D10CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84839LRK5T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rakshith.QRCodeWatchOS-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRCodeWatchOS Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QRCodeWatchOS Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		32C3291B2C286573003D10CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84839LRK5T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rakshith.QRCodeWatchOS-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRCodeWatchOS Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QRCodeWatchOS Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		32C3291D2C286573003D10CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84839LRK5T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rakshith.QRCodeWatchOS-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "QRCodeWatchOS Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		32C3291E2C286573003D10CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84839LRK5T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rakshith.QRCodeWatchOS-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "QRCodeWatchOS Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32C328E32C286570003D10CE /* Build configuration list for PBXProject "QRCodeWatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32C329102C286573003D10CE /* Debug */,
+				32C329112C286573003D10CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32C329122C286573003D10CE /* Build configuration list for PBXNativeTarget "QRCodeWatchOS Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32C329132C286573003D10CE /* Debug */,
+				32C329142C286573003D10CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32C329162C286573003D10CE /* Build configuration list for PBXNativeTarget "QRCodeWatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32C329172C286573003D10CE /* Debug */,
+				32C329182C286573003D10CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32C329192C286573003D10CE /* Build configuration list for PBXNativeTarget "QRCodeWatchOS Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32C3291A2C286573003D10CE /* Debug */,
+				32C3291B2C286573003D10CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32C3291C2C286573003D10CE /* Build configuration list for PBXNativeTarget "QRCodeWatchOS Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32C3291D2C286573003D10CE /* Debug */,
+				32C3291E2C286573003D10CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32C328E02C286570003D10CE /* Project object */;
+}
